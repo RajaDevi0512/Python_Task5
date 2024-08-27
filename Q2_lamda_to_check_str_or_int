@@ -1,0 +1,5 @@
+data = [1,'a',2,'b','c',4,'7','e']
+
+int_or_str_check = lambda item : type(item)
+result = list(map(int_or_str_check, data))
+print(result)
